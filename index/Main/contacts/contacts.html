@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join - Contacts</title>
+    <link rel="icon" type="image.png" href="../IMG/favicon.png">
+    <link rel="stylesheet" href="./contacts.css">
+    <link rel="stylesheet" href="../board.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="../SideAndHeadStyle.css">
+    <script src="contacts.js"></script>
+</head>
+
+<body onload="initContacts()">
+
+    <!----------------------------- HEADER AND SIDEBAR ----------------------------------->
+
+    <div w3-include-html="./sidebarAndHeader.html"></div>
+
+    <!----------------------------- HEADER - BOARD ----------------------------------->
+
+    <section class="contacts-list-section">
+        <button class="button-add-task button-width"><p>Add new contact</p> </button>
+        <nav class="contacts-list" id="contactsList"></nav>
+    </section>
+    <section class="">
+        <h1>Contacts</h1>
+        <img class="vector-blue" src="../IMG/Vector-5blue (1).png">
+    </section>
+    <div id="detailsContainer"></div>
+</body>
+
+</html>
